@@ -1,0 +1,214 @@
+/**
+ *『Wjghj Project Static』
+ * This _CascadingStyleSheets_ code is from https://common.wjghj.cn
+ * ☆CC BY-NC-ND
+ *
+ * NgnlTheme - Designed by zh.ngnl-team
+ **/
+/** 选区样式 **/
+::selection {
+  background: rgba(222, 25, 99, 0.7);
+  color: #ddd
+}
+a::selection {
+  color: #fff;
+  text-shadow: 0 0 3px #fff;
+}
+/** 背景 **/
+body {
+  background: #06030c url(http://180.76.242.64/blog/wp-content/uploads/2019/12/WikiBackground1.png) 50% -100px / cover no-repeat fixed !important;
+}
+.content {
+  background-color: transparent !important;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+.content .post,
+.content .page {
+  background-color: rgba(78,16,38,0.6);
+  border: 1px solid rgb(78,16,38);
+}
+.content .page {
+  padding: 12px;
+}
+.mythemes-page-header h1,
+.post-title,
+.post-title a,
+.content p,
+.content h2,
+.content ul {
+  color: #ffffff !important;
+}
+aside.mythemes-sidebar div.widget {
+  background: linear-gradient(to right,rgba(000,000,000,0.6),rgba(000,000,000,0.6));
+  border-radius: 8px;
+  border: 3px solid #3530ae;
+  padding: 3px;
+  width: 100%;
+}
+aside.mythemes-sidebar div.widget .widget-title {
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(to right,rgba(000,000,000,0.5), rgba(000,000,000,0.5)),url(http://180.76.242.64/blog/wp-content/uploads/2019/12/NgnlTheme.png) center / cover no-repeat fixed !important;
+}
+/** 评论区 **/
+.comments-area {
+  background: linear-gradient(to right,rgba(000,000,000,0.6),rgba(000,000,000,0.6)),url(http://180.76.242.64/blog/wp-content/uploads/2019/12/cropped-8C6FE276-10A0-4971-97D3-6C1ED2047F3C.png) center / cover no-repeat fixed;
+  border-radius: 8px;
+  border: 3px solid #3530ae;
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 12px;
+}
+.comments-area p {
+  margin: 2px 0 2px 0;
+}
+/** 首页样式 **/
+.home .container {
+  width: 90%;
+}
+.valign-cell-wrapper {
+  background:  rgba(78,16,38,0.6) !important;
+}
+.home .mythemes-blog-identity,
+.home .parallax {
+  display: none;
+}
+.home .header-headline {
+  font-weight: 700;
+  color: #fff !important;
+}
+.home .header-headline:before {
+  content: "";
+  display: block;
+  background: url(http://180.76.242.64/blog/wp-content/uploads/2019/12/6289E2BB-68D0-43C3-887A-2B197CDFC478.png) top left / 340px 80px;
+  height: 80px;
+  width: 340px;
+  margin: 0 auto;
+}
+.home .header-description {
+  color: #fff !important;
+}
+/** 页眉 **/
+.nav-wrapper.container {
+  position: relative;
+}
+.mythemes-blog-logo .custom-logo {
+  max-height: 60px !important;
+  width: auto;
+}
+div.nav-wrapper div.not-collapsed-wrapper {
+  padding: 0 !important;
+}
+body:not(.home) div.nav-wrapper div.not-collapsed-wrapper {
+  position: absolute;
+  right: 0;
+  bottom: -45px;
+}
+div.nav-wrapper div.not-collapsed-wrapper li {
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+.mythemes-topper {
+  background-color: #450e21 !important;
+}
+.mythemes-page-header {
+  background-color: rgba(78,16,38,0.6);
+}
+.mythemes-blog-identity {
+  padding: 20px 0 !important;
+  display: flex;
+  border-bottom: none !important;
+}
+.mythemes-blog-title {
+  margin: auto 1em;
+}
+.mythemes-blog-description {
+  margin: auto 0 !important;
+}
+.mythemes-topper a,
+.mythemes-page-header nav a,
+.mythemes-page-header nav li:before {
+  color: #ffffff !important;
+  text-shadow: none;
+}
+.nav-wrapper .sub-menu a,
+.nav-wrapper .side-nav a {
+  color: #252525 !important;
+}
+/** 博客列表 **/
+.category .post-content,
+.blog .post-content,
+.author .post-content {
+  max-height: 300px;
+  overflow-y: auto
+}
+@media screen and (min-width:1000px) {
+  .author .author-details,
+  .category .found-details {
+    position: absolute;
+    right: 20px;
+  }
+}
+/* 光标样式  Powered by: 机智的小鱼君 */
+article div.meta ul.post-categories li a,
+article div.meta ul.post-categories li a:hover {
+  background: rgb(246, 80, 120);
+}
+body {
+  cursor: url("https://vignette.wikia.nocookie.net/no-game-no-life/images/0/00/Cursor-default.png/revision/latest?cb=20190616130235&format=original&path-prefix=zh"), auto !important;
+  color: #eaeaea;
+}
+a:link,
+a:visited,
+a:hover
+a:active,
+button,
+input[type=submit],
+input[type=checkbox],
+input[type=radio] {
+  cursor: url("https://vignette.wikia.nocookie.net/no-game-no-life/images/5/57/Cursor-pointer.png/revision/latest?cb=20190616130404&format=original&path-prefix=zh"), pointer !important;
+}
+textarea,
+input {
+  cursor: url("https://vignette.wikia.nocookie.net/no-game-no-life/images/0/0f/Cursor-text.png/revision/latest?cb=20190616132438&format=original&path-prefix=zh"), text !important;
+}
+/* 链接样式 */
+article a,
+aside.mythemes-sidebar div.widget a {
+  color: rgb(246, 80, 120);
+  text-shadow: 0 -15px 2.5px transparent, 0 15px 2.5px transparent;
+  text-decoration: none;
+  transition: all .08s linear 0s;
+}
+.post-content a:hover,
+aside.mythemes-sidebar div.widget a:hover {
+  text-shadow: 0 0 2.5px #fb3061, 0 0 2.5px #fb3061;
+  color: #e53935 !important;
+  text-decoration: none;
+}
+footer aside a,
+footer aside a abbr {
+  color: rgb(246, 80, 120) !important;
+}
+/** 引用段落 **/
+.wp-block-quote {
+  clear: both;
+  border: 1px solid #704051;
+  margin: 4px 0px;
+  background: rgba(78, 16, 38, 0.7);
+  border-radius: 5px;
+}
+.wp-block-quote:before {
+  content: "“";
+  color: #704051;
+  font-size: 36px;
+  font-family: 'Times New Roman',serif;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+.wp-block-quote cite,
+.wp-block-quote p {
+  color: #ffffff;
+}
